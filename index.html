@@ -93,7 +93,7 @@
         </div>
         <div class="list-products">
           <!-- Product 1 : baskets -->
-          <div class="card-body">
+          <div class="card-body" id="card1">
             <div class="card" style="width: 18rem">
               <img
                 src="/assets/baskets.png"
@@ -110,15 +110,15 @@
                   <i class="fas fa-minus-circle" onclick="dec1()"></i>
                 </div>
                 <div>
-                  <i class="fas fa-trash-alt"></i>
-                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-trash-alt" onclick="removeProd1()"></i>
+                  <i class="fas fa-heart favorite-btn"></i>
                 </div>
               </div>
             </div>
           </div>
           <!-- Product 2 : socks -->
 
-          <div class="card-body">
+          <div class="card-body" id="card2">
             <div class="card" style="width: 18rem">
               <img src="/assets/socks.png" class="card-img-top" alt="socks" />
               <div class="card-body">
@@ -131,14 +131,14 @@
                   <i class="fas fa-minus-circle" onclick="dec2()"></i>
                 </div>
                 <div>
-                  <i class="fas fa-trash-alt"></i>
-                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-trash-alt" onclick="removeProd2()"></i>
+                  <i class="fas fa-heart favorite-btn"></i>
                 </div>
               </div>
             </div>
           </div>
           <!-- Product 3 : bag -->
-          <div class="card-body">
+          <div class="card-body" id="card3">
             <div class="card" style="width: 18rem">
               <img src="/assets/bag.png" class="card-img-top" alt="bag" />
               <div class="card-body">
@@ -151,8 +151,11 @@
                   <i class="fas fa-minus-circle" onclick="dec3()"></i>
                 </div>
                 <div>
-                  <i class="fas fa-trash-alt"></i>
-                  <i class="fas fa-heart"></i>
+                 
+
+                  
+                  <i class="fas fa-trash-alt " onclick="removeProd3()"></i>
+                  <i class="fas fa-heart favorite-btn"></i>
                 </div>
               </div>
             </div>
